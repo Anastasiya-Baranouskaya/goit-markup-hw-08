@@ -1,0 +1,135 @@
+/* footer */
+.footer {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--hero-footer-background-color);
+}
+.footer__div {
+  display: inline-table;
+}
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__site {
+  list-style-type: none;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.footer__list:not(:last-child) {
+  padding-bottom: 9px;
+}
+.footer__link--grey {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:active {
+    color: var(--accent-text-color);
+  }
+}
+
+.link__address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    color: var(--accent-text-color);
+  }
+}
+
+.div__icons {
+  margin-left: 70px;
+  min-width: 206px;
+  height: 80px;
+}
+.footer__title {
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.social-icons__link--bg {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon--fill {
+  width: 20px;
+  height: 20px;
+  fill: var(--button-text-color-hover-focus);
+}
+.social-icons__link:hover,
+.social-icons__link:focus {
+  background-color: var(--accent-text-color);
+}
+
+/* див подписаться */
+.div__mailling {
+  margin-left: 91px;
+}
+.footer__field {
+  background-color: transparent;
+  min-width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: 12px;
+  color: #fff;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus {
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0px 1000px var(--hero-footer-background-color) inset;
+  }
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+  &::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:checked::placeholder {
+    color: #fff;
+  }
+}
+
+.footer__button {
+  width: 200px;
+  height: 50px;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.button__icon {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}

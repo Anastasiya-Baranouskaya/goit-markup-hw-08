@@ -1,0 +1,19 @@
+/* header */
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.header {
+  border-bottom: 1px solid #e9e2e2;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__logo {
+  margin-right: 93px;
+}

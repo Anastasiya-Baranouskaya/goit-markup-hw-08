@@ -1,0 +1,29 @@
+/* секция работы */
+.works {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
+.works__div {
+  position: relative;
+}
+.works__div--content {
+  content: '';
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  display: block;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 27px;
+}

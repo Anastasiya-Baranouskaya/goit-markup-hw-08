@@ -1,0 +1,6 @@
+/* марджины в списках секций*/
+.quality__list:not(:last-child),
+.works__list:not(:last-child),
+.team__list:not(:last-child) {
+  margin-right: 30px;
+}
