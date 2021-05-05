@@ -60,14 +60,14 @@
     border: none;
     background-color: transparent;
     z-index: 2;
-    & .icon__close {
+    & .icon__menu {
       display: none;
     }
-    &.is-open .icon__close {
+    &.is-open .icon__menu {
       display: block;
       // z-index: 3;
     }
-    &.is-open .icon__menu {
+    &.is-open .icon__close {
       display: none;
     }
   }
