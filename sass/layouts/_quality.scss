@@ -20,7 +20,7 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     max-width: 354px;
     &:nth-child(2n + 1) {
-      padding-right: 30px;
+      // padding-right: 30px;
       padding-bottom: 30px;
     }
     &:nth-child(3) {
@@ -66,14 +66,24 @@
 .list {
   display: flex;
   flex-wrap: wrap;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: space-between;
+  }
   margin-top: 0;
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
-  @media screen and (max-width: 480px) {
-    justify-content: center;
+}
+.header .list {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: start;
   }
-  @media screen and (min-width: 480px) {
-    justify-content: center;
+}
+.div__link .list {
+  @media screen and (max-width: 767px) {
+    display: block;
+    &:not(:last-child) {
+      margin-bottom: 210px;
+    }
   }
 }
