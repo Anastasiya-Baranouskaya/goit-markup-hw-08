@@ -881,7 +881,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .menu__container {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -891,7 +891,7 @@ img {
     padding: 48px 40px;
   }
   .menu__container.is-open {
-    display: block;
+    display: none;
   }
 }
 
