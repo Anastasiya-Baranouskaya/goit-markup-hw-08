@@ -1,8 +1,13 @@
 /* секция работы */
 .works {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 94px;
+  }
 }
 .works__div {
   position: relative;

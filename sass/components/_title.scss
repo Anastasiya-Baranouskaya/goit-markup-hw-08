@@ -5,16 +5,30 @@
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 /* заголовки h2 */
 .title__section {
   font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 0;
-  margin-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1/17;
+  }
   display: flex;
   justify-content: center;
 }
